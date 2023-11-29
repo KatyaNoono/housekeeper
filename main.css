@@ -1,0 +1,63 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    color: white;
+    font-size: 13px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.circle_green_red {
+    background-color: white;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle_green_red div {
+    background-color: rgb(4, 180, 4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 63px;
+    min-height: 63px;
+}
+
+.circle_blue_red {
+    background-color: white;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.circle_blue_red div {
+    background-color:blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 63px;
+    min-height: 63px;
+}
+
+.circle_blue_green {
+    background-color: blue;
+    border: 0;
+    box-shadow: 0 0 8px 4px rgb(117, 194, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.change-color:hover {
+    background-color: red;
+}
